@@ -8,7 +8,7 @@ import io
 import zipfile
 import os
 
-st.title("📄 PDF 단 분리 도구")
+st.title("📄 PDF 단 분리 도구")st.write("Ver.0.9")
 st.write("2단 레이아웃 PDF를 좌/우 페이지로 분리하고 기울기를 자동 보정합니다.")
 
 with st.expander("📖 사용법 보기"):
@@ -22,6 +22,7 @@ with st.expander("📖 사용법 보기"):
    - 초록 중앙선을 보시고, 직접 픽셀 위치를 지정할 수 있습니다
    - 숫자가 커질수록 구분선이 오른쪽으로 이동합니다
 4. **ZIP 다운로드** 버튼으로 결과물을 저장하세요
+5. 오류 발생시 말씀해주세요.
 
 **출력 파일명:** `page01_left.png` / `page01_right.png`
     """)
