@@ -8,7 +8,8 @@ import io
 import zipfile
 import os
 
-st.title("📄 PDF 단 분리 도구"), st.write("Ver.0.9")
+st.title("📄 PDF 단 분리 도구")
+st.write("Ver.0.9")
 st.write("2단 레이아웃 PDF를 좌/우 페이지로 분리하고 기울기를 자동 보정합니다.")
 
 with st.expander("📖 사용법 보기"):
